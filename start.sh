@@ -1,2 +1,1 @@
-cd src
-php ./Bot.php
+php ./run.php
