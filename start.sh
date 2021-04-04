@@ -1,2 +1,2 @@
 cd src
-php ./bot.php
+php ./Bot.php
