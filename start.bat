@@ -1,3 +1,3 @@
 @echo off
 
-php ./bot.php
+php ./run.php
