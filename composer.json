@@ -3,5 +3,9 @@
         "psr-4": {
             "bariscodefx\\": "src/"
         }
+    },
+    "require": {
+        "team-reflex/discord-php": "^5.1",
+        "phpunit/phpunit": "^9.5"
     }
 }
