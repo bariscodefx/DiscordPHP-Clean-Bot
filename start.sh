@@ -1,4 +1,4 @@
-FILE=./vendor/autoload
+FILE=./vendor/autoload.php
 if test -f "$FILE"; then
     php ./bot.php
 else
