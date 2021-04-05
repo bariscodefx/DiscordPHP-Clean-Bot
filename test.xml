@@ -1,1 +1,6 @@
-
+<?xml version="1.0"?>
+<tables>
+    <table>
+        <testcontent>Just Test</testcontent>
+    </table>
+</tables>
