@@ -6,7 +6,7 @@ use Discord\DiscordCommandClient;
 use bariscodefx\CommandLoader;
 
 $bot = new DiscordCommandClient([
-    'token' => 'ODEyNDYwNzAzOTE0MjYyNTkx.YDBE_g.lKO1aYtD6TSIZSAUvRa4rcusnZ8'
+    'token' => 'Add Your Toke'
 ]);
 
 $bot->on('ready', function($discord) {
