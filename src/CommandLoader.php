@@ -25,8 +25,7 @@ class CommandLoader
             if ($file != '.' && $file != '..' && $extension == '.php') {
                 $class = substr($file, 0, -4);
                 $classnamespace = 'bariscodefx\commands\\' . $class;
-                $cmd = new $classnamespace;
-                $client->registerCommand($cmd);
+                $cmd = new $classnamespace($client);
             }
         }
     }
