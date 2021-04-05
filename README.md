@@ -8,8 +8,8 @@
 ### For Windows
 * Open start.bat
 ### For Linux
-* `chmod +x start.sh`
 * `./start.sh`
+* If you got error type `chmod +x start.sh` and try again
 # Requirements
 * PHP 7.3 or high
 * Composer
