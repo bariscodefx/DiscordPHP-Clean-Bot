@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Examples - Sending Message Example</title>
+    </head>
+    <body>
+        <div class="header">
+            <span class="header-title">bariscodefx - examples</span>
+        </div>
+        <div class="doc">
+            <div class="doc-title">
+                <h1>Sending Message</h1>
+            </div>
+            <div class="doc-content">
+                <span class="doc-text">
+                    How to make message Sending... First open a class in src/commands folder like <span class="doc-tip">MyCommand.php</span> then add basic commands:
+                <br><textarea class="doc-code" disabled>
+<?php
 
+namespace bariscodefx\commands;
+
+use Discord\DiscordCommandClient;
+                    
+class MyCommand {
+
+    public function __construct(DiscordCommandClient $client) {
+        $client->registerCommand('mycommand', function($msg, $args){
+            $msg->channel->sendMessage('Hallo this is a test message!');
+        });
+    }
+
+}
+
+?>
+                </textarea>
+                </span>
+            </div>
+        </div>
+        <style>
+            .doc-tip {
+                background-color: lightgray;
+                font-family: Arial;
+                font-weight: 100;
+                font-style: italic;
+            }
+            .doc-code {
+                width: 100%;
+                height: 400px;
+                background-color: #212121;
+                color: white;
+            }
+        </style>
+    </body>
+</html>
