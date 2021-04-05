@@ -11,7 +11,7 @@ $bot = new DiscordCommandClient([
 
 $bot->on('ready', function($discord) {
     echo "Bot is ready!", PHP_EOL;
-    $commandLoader = new CommandLoader;
+    $commandLoader = new CommandLoader($discord);
 });
 
 $bot->run();
