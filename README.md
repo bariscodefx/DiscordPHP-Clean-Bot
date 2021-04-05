@@ -13,3 +13,5 @@
 # Requirements
 * PHP 7.3 or high
 * Composer
+# Discord Server
+* <a href="https://discord.gg/YM9cuQdAGy"><img src="https://img.shields.io/discord/115233111977099271?label=Discord"></a>
