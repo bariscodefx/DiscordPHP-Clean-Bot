@@ -1,9 +1,12 @@
 # DiscordPHP-Clean-Bot
+<p align="center">
+    [<a href="https://discord.gg/YM9cuQdAGy"><img src="https://img.shields.io/discord/115233111977099271?label=Discord"></a>](#)
+</p>
 ## Installing Tutorial
-* 1. Install Release
-* 2. Install PHP 7.3 or High
-* 3. Install Composer
-* 4. Type `composer install`
+* Install Release
+* Install PHP 7.3 or High
+* Install Composer
+* Type `composer install`
 ## Running Tutorial
 ### For Windows
 * `php ./bot.php`
