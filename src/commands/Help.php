@@ -15,7 +15,7 @@ class Help
 {
 
     /**
-    *
+    * Help Command Class Constructor
     */
     public function __construct(DiscordCommandClient $client) {
         $client->unregisterCommand('help');
