@@ -3,13 +3,12 @@
 * 1. Install Release
 * 2. Install PHP 7.3 or High
 * 3. Install Composer
-* 4. Type `composer`
+* 4. Type `composer install`
 ## Running Tutorial
 ### For Windows
-* Open start.bat
+* `php ./bot.php`
 ### For Linux
 * `php ./bot.php`
-* If you got error type `chmod +x start.sh` and try again
 # Requirements
 * PHP 7.3 or high
 * Composer
